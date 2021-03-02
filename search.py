@@ -1,3 +1,8 @@
+"""
+This is a program that generates a list of random numbers, the user can then search whether or not a number appears in the list, and if so how many times.
+Finally a message is printed letting the user know the result.
+"""
+
 from random import seed
 from random import randrange
 
