@@ -12,7 +12,6 @@ for i in range(10):
     value = randrange(11)
     values.append(value)
 
-print(values)
 number = input("Enter the number you want to search for: ").strip()
 
 while not number.isdigit():
