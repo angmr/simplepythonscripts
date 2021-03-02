@@ -13,9 +13,7 @@ for i in range(10):
     values.append(value)
 
 print(values)
-number = input("Enter the number you want to search for: ")
-
-number = number.strip()
+number = input("Enter the number you want to search for: ").strip()
 
 while not number.isdigit():
     number = input("The value you enter must be a number: ")
